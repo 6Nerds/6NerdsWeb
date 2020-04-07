@@ -1,24 +1,13 @@
 import React from 'react';
 import './App.css'
-import { render } from '@testing-library/react';
 
 export default function App() {
-  render(
-    <div>
-      <div className="HI">
-        <h1>왜 왔어</h1>
-        <span>다시 가</span>
-      </div>
-      <div className="Bye">
-        <h1>왜 갔어</h1>
-        <span>다시 와</span>
-      </div>
-      <div className="goTo">
-        <h1>맨위로 올라가</h1>
-      </div>
+  return(
+    <div className="Hi">
+      <h1>안녕 6 Nerds다</h1>
+      <button className="wtf">여긴 도대체 뭐죠?</button>
     </div>
   )
 }
 
 //ctrl+k => ctrl+f
-//폰트 뭐씁니까 consolas?
