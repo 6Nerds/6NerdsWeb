@@ -1,0 +1,35 @@
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+    
+}
+
+.main__text {
+    font-size: 100px;
+    margin-bottom: 1px;
+}
+
+body {
+    background: linear-gradient(to right, #ef32d9, #89fffd);
+}
+
+#btn1 {
+    color: white;
+    margin-top: 1px;
+    font-size: 30px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 3px solid skyblue;
+    width: 200px;
+    height: 100px;
+}
+
+#btn1:hover {
+    background-color: skyblue;
+}
+
+.welcome {
+    color: white;
+    text-align: center;
+    top: 45%;
+    left: 42%;
+}
