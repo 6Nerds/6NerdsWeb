@@ -1,9 +1,8 @@
 import React from 'react';
 import './App.css'
-import { render } from '@testing-library/react';
 
 export default function App() {
-  render(
+  return(
     <div>
       <div className="HI">
         <h1>왜 왔어</h1>
